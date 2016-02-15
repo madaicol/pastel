@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="Librerias/css/bootstrap.css">
+    <link rel="stylesheet" href="Librerias/css/animate.css">
+    <!--    <link rel="stylesheet" type="text/css" href="Librerias/css/angular-toastr.css">  -->
+
+</head>
+
+<body ng-app="Prueba">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Madai Arteaga</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/home">Home</a></li>
+                    <li><a href="#/nuevousuario">Nuevo Usuario</a></li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+
+        <div class="animated rotateIn" ui-view>
+
+        </div>
+
+    </div>
+
+
+    <script src="Librerias/js/angular.js"></script>
+
+    <script src="https://npmcdn.com/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <link rel="stylesheet" href="https://npmcdn.com/angular-toastr/dist/angular-toastr.css" />
+
+    <script src="Librerias/js/angular-ui-router.js"></script>
+    <script src="Librerias/js/angular-resource.js"></script>
+    <script src="Librerias/js/angular-animate.js"></script>
+    <!--    <script type="text/javascript" src="Librerias/js/angular-toastr.js"></script>-->
+
+    <script src="Librerias/js/jquery-2.2.0.js"></script>
+    <script src="Librerias/js/bootstrap.js"></script>
+
+    <script src="app.js"></script>
+
+    <script src="FACTORY/Factory.js"></script>
+
+    <script src="Controladores/PastelController.js"></script>
+    <script src="Controladores/NuevoUsuarioController.js"></script>
+    <script src="Controladores/HomeController.js"></script>
+
+
+
+</body>
+
+</html>
